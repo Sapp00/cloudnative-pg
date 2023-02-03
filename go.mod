@@ -3,6 +3,7 @@ module github.com/cloudnative-pg/cloudnative-pg
 go 1.19
 
 require (
+	github.com/DATA-DOG/go-sqlmock v1.5.0
 	github.com/Masterminds/semver/v3 v3.2.0
 	github.com/avast/retry-go/v4 v4.3.2
 	github.com/blang/semver v3.5.1+incompatible
@@ -43,7 +44,6 @@ require (
 )
 
 require (
-	github.com/DATA-DOG/go-sqlmock v1.5.0 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/cespare/xxhash/v2 v2.1.2 // indirect
 	github.com/emicklei/go-restful/v3 v3.9.0 // indirect
